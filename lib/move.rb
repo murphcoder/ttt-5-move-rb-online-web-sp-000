@@ -12,6 +12,6 @@ def input_to_index(p_move)
 end
 
 def move(board, p_move, x_or_o = "X")
-  board[input_to_index(p_move)] = x_or_o
+  board[p_move] = x_or_o
   return board
 end
